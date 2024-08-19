@@ -1,0 +1,55 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css"rel="stylesheet"/>
+    <title>Index</title>
+</head>
+<body>
+   <header>
+       <nav>
+           <a href="/Employees/Index" class="btn btn-success">All</a>
+            <a href="/Employees/GetOne" class="btn btn-success">Get One</a>
+             <a href="/Employees/Create" class="btn btn-success">Create</a>
+              <a href="/Employees/Update" class="btn btn-success">Update</a>
+               <a href="/Employees/Delete" class="btn btn-success">Delete</a>
+       </nav>
+   </header>
+
+   <main>
+       <section>
+           All Employees
+           @DateTime.Now
+
+           @* this is comment *@
+            @{
+                int age = 10;
+                if (age >= 5)
+                {
+                            <h2> your age @age is above 5</h2>
+                }
+                else
+                {
+                    <h2> your age @age is under 5</h2>
+                }
+
+                for (int i = 0; i < 5; i++)
+                {
+                    <h2>@i</h2>
+                }
+            }
+       </section>
+   </main>
+
+   <footer class="bg-secondary text-center mt-5 py-3">
+       this is footer
+   </footer>
+
+</body>
+</html>
