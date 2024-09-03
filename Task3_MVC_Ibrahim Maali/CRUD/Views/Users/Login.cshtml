@@ -1,0 +1,25 @@
+﻿
+@model User
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+
+<form class="d-flex  flex-column gap-3 bg-warning p-5 bg-gradient" asp-controller="Users" asp-action="login">
+
+    <div class="text-danger">
+        @ViewBag.Error
+    </div>
+
+    <label asp-for="UserName"> @Html.DisplayNameFor(emp=>emp.UserName)</label>
+    <input  asp-for="UserName" />
+
+     <label asp-for="Password" > Enter your Password</label>
+    <input  asp-for="Password"/>
+
+
+    <button type="submit" class="mt-4 w-50 bg-success m-auto py-3"> Login</button>
+</form>
+

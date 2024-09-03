@@ -1,0 +1,36 @@
+﻿
+@model List<User>
+@{
+    ViewData["Title"] = "GetInActiveUsers";
+}
+
+<h1>GetInActiveUsers</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <td> UserId</td>
+            <td>UserName</td>
+            <td>Password</td>
+      
+            <td>Action</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+             <tr>
+                             <td> @user.UserId</td>
+                       <td> @user.UserName</td>
+                        <td> @user.Password</td>
+                        <td><a asp-controller="Users" asp-action="makeActive" asp-route-id="@user.UserId"
+                        class="btn btn-outline-success">make Active</a></td>
+
+              </tr>
+        }
+
+
+
+    </tbody>
+</table>
