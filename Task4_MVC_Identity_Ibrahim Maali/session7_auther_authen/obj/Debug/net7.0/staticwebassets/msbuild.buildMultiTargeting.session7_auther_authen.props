@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\session7_auther_authen.props" />
+</Project>
