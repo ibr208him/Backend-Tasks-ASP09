@@ -1,0 +1,17 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = learning_3
+build_property.RootNamespace = learning_3
+build_property.ProjectDir = D:\أكاديمية المعرفة\Full stack\Backend\ASP.net__round9\Mine\#8 API\my coding\learning_3\learning_3\learning_3\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\أكاديمية المعرفة\Full stack\Backend\ASP.net__round9\Mine\#8 API\my coding\learning_3\learning_3\learning_3
+build_property._RazorSourceGeneratorDebug = 
